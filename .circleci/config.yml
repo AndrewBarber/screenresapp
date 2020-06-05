@@ -24,9 +24,5 @@ workflows:
     build-and-deploy:
         jobs:
             - build-and-test
-            
+
             - build-and-deploy
-                  filters:
-                      branches:
-                          only:
-                              - master
